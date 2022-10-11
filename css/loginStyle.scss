@@ -96,6 +96,12 @@ p {
             border-radius: 3rem;
             box-shadow: $box-shadow;  
           }
+          .btn:hover{
+            cursor: pointer;
+            color: $cor-botao2;
+            background: white;
+            transition: 400ms;
+          }
         }
       }
     }
@@ -103,12 +109,15 @@ p {
   .right {
     width: 50vw;
     .banner{
+        max-width: 50vw;
+        max-height: 100vh;
         display: flex;
         justify-content: center;
+        overflow: hidden;
         .figure{
             position: absolute;
             .img2{
-                width: 50vw;
+                width: 49.5vw;
                 height: 100vh;
             }
         }

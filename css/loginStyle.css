@@ -109,17 +109,26 @@ p {
   border-radius: 3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.container .left .content .form-div .login-form .btn:hover {
+  cursor: pointer;
+  color: #c13216;
+  background: white;
+  transition: 400ms;
+}
 .container .right {
   width: 50vw;
 }
 .container .right .banner {
+  max-width: 50vw;
+  max-height: 100vh;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 .container .right .banner .figure {
   position: absolute;
 }
 .container .right .banner .figure .img2 {
-  width: 50vw;
+  width: 49.5vw;
   height: 100vh;
 }/*# sourceMappingURL=loginStyle.css.map */
