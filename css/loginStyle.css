@@ -1,0 +1,125 @@
+@font-face {
+  font-family: markPro;
+  src: url(../assets/fonts/Mark\ Pro.ttf);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: markPro;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  background: linear-gradient(to bottom, #33383d, #1c1d20);
+}
+.container .left .content {
+  width: 25rem;
+  height: 35rem;
+  align-items: flex-start;
+}
+.container .left .content .text-div {
+  height: 40%;
+}
+.container .left .content .text-div h1,
+.container .left .content .text-div p {
+  margin-top: 1rem;
+  color: white;
+}
+.container .left .content .text-div h1 {
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+}
+.container .left .content .text-div p {
+  width: 20rem;
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 400;
+}
+.container .left .content .form-div {
+  display: flex;
+  flex-flow: column;
+}
+.container .left .content .form-div h2 {
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+.container .left .content .form-div .login-form {
+  display: flex;
+  flex-flow: column;
+}
+.container .left .content .form-div .login-form .input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  border-radius: 3rem;
+  background: none;
+  border-width: 0.063rem;
+  border-color: white;
+  text-align: justify;
+}
+.container .left .content .form-div .login-form .input::-moz-placeholder {
+  padding-left: 1rem;
+  color: white;
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.container .left .content .form-div .login-form .input:-ms-input-placeholder {
+  padding-left: 1rem;
+  color: white;
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.container .left .content .form-div .login-form .input::placeholder {
+  padding-left: 1rem;
+  color: white;
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.container .left .content .form-div .login-form .input:first-child {
+  margin-top: 2rem;
+}
+.container .left .content .form-div .login-form .btn {
+  margin-top: 3rem;
+  width: 100%;
+  padding: 1.5rem;
+  color: white;
+  font-size: 1rem;
+  font-style: bold;
+  line-height: 1.4rem;
+  background: linear-gradient(to bottom, #ff2d04, #c13216);
+  border: none;
+  border-radius: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .right {
+  width: 50vw;
+}
+.container .right .banner {
+  display: flex;
+  justify-content: center;
+}
+.container .right .banner .figure {
+  position: absolute;
+}
+.container .right .banner .figure .img2 {
+  width: 50vw;
+  height: 100vh;
+}/*# sourceMappingURL=loginStyle.css.map */
