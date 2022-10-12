@@ -58,6 +58,7 @@ p {
   flex-flow: column;
 }
 .container .left .content .form-div .login-form .input {
+  color: white;
   margin-top: 1rem;
   margin-bottom: 1rem;
   width: 100%;
@@ -93,6 +94,13 @@ p {
   font-weight: 400;
   opacity: 0.7;
 }
+.container .left .content .form-div .login-form .input:focus {
+  color: white;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 400;
+}
 .container .left .content .form-div .login-form .input:first-child {
   margin-top: 2rem;
 }
@@ -114,6 +122,18 @@ p {
   color: #c13216;
   background: white;
   transition: 400ms;
+}
+.container .left .icons {
+  margin-top: 8rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.container .left .icons .icon {
+  margin-top: 4rem;
+  width: 1.25rem;
+  height: 1.563rem;
 }
 .container .right {
   width: 50vw;

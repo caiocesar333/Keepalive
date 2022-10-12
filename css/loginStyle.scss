@@ -3,6 +3,7 @@
   src: url(../assets/fonts/Mark\ Pro.ttf);
 }
 
+$branco: white;
 $cor-principal: #33383d;
 $cor-secundaria: #1c1d20;
 $cor-botao1: #ff2d04;
@@ -16,6 +17,8 @@ h4,
 p {
   font-family: markPro;
 }
+
+
 
 .container {
   height: 100vh;
@@ -35,7 +38,7 @@ p {
         h1,
         p {
           margin-top: 1rem;
-          color: white;
+          color: $branco;
         }
         h1 {
           font-size: 3.75rem;
@@ -52,7 +55,7 @@ p {
         display: flex;
         flex-flow: column;
         h2 {
-          color: white;
+          color: $branco;
           font-size: 1.9rem;
           font-weight: 400;
         }
@@ -60,6 +63,7 @@ p {
           display: flex;
           flex-flow: column;
           .input {
+            color: $branco;
             margin-top: 1rem;
             margin-bottom: 1rem;
             width: 100%;
@@ -68,18 +72,26 @@ p {
             border-radius: 3rem;
             background: none;
             border-width: 0.063rem;
-            border-color: white;
+            border-color: $branco;
             text-align: justify;
           }
           .input::placeholder {
             padding-left: 1rem ;
-            color: white;
+            color: $branco;
             font-size: 1rem;
             line-height: 100%;
             font-weight: 400;
             opacity: 0.7;
           }
 
+          .input:focus{
+            color: $branco;
+            padding-left: 0.5rem;
+            font-size: 1rem;
+            line-height: 100%;
+            font-weight: 400;
+          }
+          
           .input:first-child{
             margin-top: 2rem;
           }
@@ -87,7 +99,7 @@ p {
             margin-top: 3rem;
             width: 100%;
             padding: 1.5rem;
-            color: white;
+            color: $branco;
             font-size: 1rem;
             font-style: bold;
             line-height: 1.4rem;
@@ -99,10 +111,22 @@ p {
           .btn:hover{
             cursor: pointer;
             color: $cor-botao2;
-            background: white;
+            background: $branco;
             transition: 400ms;
           }
         }
+      }
+    }
+    .icons{
+      margin-top: 8rem;
+      margin-left: 1rem;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      .icon{
+        margin-top: 4rem;
+        width: 1.25rem;
+        height: 1.563rem;
       }
     }
   }
