@@ -59,11 +59,15 @@ p {
   text-align: right;
 }
 
+.footer {
+  display: flex;
+  background: #1C1D20;
+  justify-content: space-around;
+}
 .footer .actions {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1C1D20;
   height: 6.25rem;
   text-align: end;
 }
@@ -89,7 +93,6 @@ p {
   display: flex;
   flex-flow: column;
   align-items: center;
-  margin-right: 10rem;
 }
 .footer .actions .counter h1 {
   color: white;
@@ -103,7 +106,10 @@ p {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
-.footer .actions .btn {
+.footer .buttons {
+  display: flex;
+}
+.footer .buttons .btn {
   float: right;
   width: 8.125rem;
   height: 100%;
@@ -111,7 +117,7 @@ p {
   color: white;
   border: none;
 }
-.footer .actions .btn:hover {
+.footer .buttons .btn:hover {
   cursor: pointer;
   background: white;
   color: #c12d18;

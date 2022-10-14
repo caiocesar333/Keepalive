@@ -68,12 +68,13 @@ p {
 }
 
 .footer {
-  
+  display: flex;
+  background: $cor-secundaria;
+  justify-content: space-around;
   .actions {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: $cor-secundaria;
     height: 6.25rem;
     text-align: end;
     h3 {
@@ -98,7 +99,6 @@ p {
       display: flex;
       flex-flow: column;
       align-items: center;
-      margin-right: 10rem;
       h1 {
         color: white;
         font-size: 3rem;
@@ -113,6 +113,9 @@ p {
         line-height: 1.125rem;
       }
     }
+  }
+  .buttons{
+    display: flex;
     .btn{
       float: right;
       width: 8.125rem;
