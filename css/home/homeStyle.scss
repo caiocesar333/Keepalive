@@ -4,6 +4,7 @@
 }
 
 $cor-primaria: #c12d18;
+$cor-secundaria: #1C1D20;
 
 h1,
 h2,
@@ -30,8 +31,8 @@ p {
   display: flex;
   justify-content: space-between;
 
-  .figure{
-    .bola-compasso{
+  .figure {
+    .bola-compasso {
       max-height: 100vh;
     }
   }
@@ -62,6 +63,69 @@ p {
       font-size: 1.5rem;
       line-height: 1rem;
       text-align: right;
+    }
+  }
+}
+
+.footer {
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $cor-secundaria;
+    height: 6.25rem;
+    text-align: end;
+    h3 {
+      color: white;
+      width: 33.813rem;
+    }
+    .vl {
+      background: white;
+      border: 0.1px solid #ffffff;
+      width: 0.063rem;
+      height: 3.813rem;
+      margin-left: 2rem;
+      margin-right: 3rem;
+    }
+    h2 {
+      color: white;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+    }
+    .counter{
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      margin-right: 10rem;
+      h1 {
+        color: white;
+        font-size: 3rem;
+        line-height: 2rem;
+        margin-left: 4rem;
+      }
+  
+      h1:last-child {
+        color: white;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+      }
+    }
+    .btn{
+      float: right;
+      width: 8.125rem;
+      height: 100%;
+      background: $cor-secundaria;
+      color: white;
+      border: none;
+    }
+    .btn:hover{
+      cursor: pointer;
+      background: white;
+      color: $cor-primaria;
+      transition: 200ms;
     }
   }
 }
