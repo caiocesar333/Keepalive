@@ -21,11 +21,24 @@ p {
   align-items: center;
   justify-content: center;
 }
+.api-container .date-api-div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+.api-container .date-api-div .date-api-time {
+  font-weight: 700;
+  font-size: 6.25rem;
+  line-height: 6.25rem;
+}
 
 .content {
   width: 99vw;
   display: flex;
   justify-content: space-between;
+  margin-top: 6.25rem;
 }
 .content .figure .bola-compasso {
   max-height: 100vh;
@@ -61,7 +74,7 @@ p {
 
 .footer {
   display: flex;
-  background: #1C1D20;
+  background: #1c1d20;
   justify-content: space-around;
 }
 .footer .actions {
@@ -113,7 +126,7 @@ p {
   float: right;
   width: 8.125rem;
   height: 100%;
-  background: #1C1D20;
+  background: #1c1d20;
   color: white;
   border: none;
 }

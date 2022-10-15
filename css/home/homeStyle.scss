@@ -4,7 +4,7 @@
 }
 
 $cor-primaria: #c12d18;
-$cor-secundaria: #1C1D20;
+$cor-secundaria: #1c1d20;
 
 h1,
 h2,
@@ -24,12 +24,25 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  .date-api-div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    .date-api-time {
+      font-weight: 700;
+      font-size: 6.25rem;
+      line-height: 6.25rem;
+    }
+  }
 }
 
 .content {
   width: 99vw;
   display: flex;
   justify-content: space-between;
+  margin-top: 6.25rem;
 
   .figure {
     .bola-compasso {
@@ -95,7 +108,7 @@ p {
       font-size: 0.875rem;
       line-height: 1.125rem;
     }
-    .counter{
+    .counter {
       display: flex;
       flex-flow: column;
       align-items: center;
@@ -105,7 +118,7 @@ p {
         line-height: 2rem;
         margin-left: 4rem;
       }
-  
+
       h1:last-child {
         color: white;
         font-weight: 400;
@@ -114,9 +127,9 @@ p {
       }
     }
   }
-  .buttons{
+  .buttons {
     display: flex;
-    .btn{
+    .btn {
       float: right;
       width: 8.125rem;
       height: 100%;
@@ -124,7 +137,7 @@ p {
       color: white;
       border: none;
     }
-    .btn:hover{
+    .btn:hover {
       cursor: pointer;
       background: white;
       color: $cor-primaria;
