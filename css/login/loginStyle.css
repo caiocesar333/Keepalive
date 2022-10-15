@@ -56,6 +56,7 @@ p {
 .container .left .content .form-div .login-form {
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 .container .left .content .form-div .login-form .input {
   color: white;
@@ -63,6 +64,7 @@ p {
   margin-bottom: 1rem;
   width: 100%;
   padding-top: 1.3rem;
+  padding-left: 1.3rem;
   padding-bottom: 1.3rem;
   border-radius: 3rem;
   background: none;
@@ -96,7 +98,7 @@ p {
 }
 .container .left .content .form-div .login-form .input:focus {
   color: white;
-  padding-left: 0.5rem;
+  padding: 0.5rem;
   font-size: 1rem;
   line-height: 100%;
   font-weight: 400;
@@ -122,6 +124,14 @@ p {
   color: #c13216;
   background: white;
   transition: 400ms;
+}
+.container .left .content .form-div .login-form .span {
+  width: 17.688rem;
+  color: #e9b425;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
 }
 .container .left .icons {
   margin-top: 8rem;
