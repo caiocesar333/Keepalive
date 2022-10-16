@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Compass - Home</title>
-    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon-16x16.png">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/icons/favicon-16x16.png"
+    />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/home/homeStyle.css" />
   </head>
@@ -20,8 +24,13 @@
           />
         </a>
 
-        <div class="weather-api-div">
-          <h2>teste api</h2>
+        <div id="weather-api-div" class="weather-api-div">
+          <div id="state-and-city" class="state-and-city">
+            <h2 id="city">Passo Fundo</h2>
+            <h2 id="state">RS</h2>
+          </div>
+          <div id="weather-icon" class="weather-icon"></div>
+          <h1 id="temp" class="temp">22º</h1>
         </div>
       </div>
     </header>
@@ -59,8 +68,8 @@
         </h3>
         <div class="vl"></div>
         <h2>Application refresh in</h2>
-        <div class="counter">
-          <h1 id="timer">600</h1>
+        <div id="counter" class="counter">
+          <h1 id="timer" class="timer"></h1>
           <h1>seconds</h1>
         </div>
       </div>
@@ -68,7 +77,10 @@
         <button class="btn">Continuar Navegando</button>
         <button class="btn">Logout</button>
       </div>
+      <div class="overlay"></div>
     </div>
     <script src="../js/dateApi.js"></script>
+    <script src="../js/weatherApi.js"></script>
+    <script src="../js/counter.js"></script>
   </body>
 </html>

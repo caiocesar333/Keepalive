@@ -18,6 +18,25 @@ p {
   margin: 2rem;
   display: flex;
   justify-content: space-between;
+  .weather-api-div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 61px;
+    }
+    .state-and-city {
+      display: flex;
+      flex-flow: row;
+      h2 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+  }
 }
 
 .api-container {
@@ -81,6 +100,7 @@ p {
 }
 
 .footer {
+  width: 100%;
   display: flex;
   background: $cor-secundaria;
   justify-content: space-around;

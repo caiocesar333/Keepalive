@@ -15,6 +15,25 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.header-container .weather-api-div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.header-container .weather-api-div h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 61px;
+}
+.header-container .weather-api-div .state-and-city {
+  display: flex;
+  flex-flow: row;
+}
+.header-container .weather-api-div .state-and-city h2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
 
 .api-container {
   display: flex;
@@ -73,6 +92,7 @@ p {
 }
 
 .footer {
+  width: 100%;
   display: flex;
   background: #1c1d20;
   justify-content: space-around;
