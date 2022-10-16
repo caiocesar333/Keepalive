@@ -155,4 +155,62 @@ p {
   background: white;
   color: #c12d18;
   transition: 200ms;
+}
+
+.modal {
+  display: none;
+  width: 390px;
+  height: 390px;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border: 1px solid #1c1d20;
+  background-color: white;
+  border-radius: 10px;
+}
+.modal h1 {
+  position: fixed;
+  color: #c12d18;
+}
+.modal .modal-actions {
+  width: 100%;
+  margin-top: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.modal .modal-actions .modal-btn {
+  margin: 15px;
+  margin-bottom: 50px;
+  width: 8.125rem;
+  height: 30px;
+  background: #c12d18;
+  color: white;
+  border: 15px;
+  border-radius: 10px;
+}
+.modal .modal-actions .modal-btn:hover {
+  cursor: pointer;
+  background: #1c1d20;
+  color: white;
+  transition: 300ms;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.show {
+  display: flex;
 }/*# sourceMappingURL=homeStyle.css.map */
