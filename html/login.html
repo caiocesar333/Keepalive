@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/login/loginStyle.css" />
   </head>
   <body>
-    <div class="container">
+    <div id="container" class="container">
       <div class="left">
         <div class="content">
           <div class="text-div">
@@ -23,15 +23,15 @@
             <h2>Login</h2>
             <form id="form" class="login-form" action="home.html" method="GET">
               <input id="username" name="username" class="input" type="text" placeholder="Usuário" required />
-              <input id="password" name="password" class="input" type="text" placeholder="Senha" required />
+              <input id="password" name="password" class="input" type="text" placeholder="Senha" required/>
               <div id="span"></div>
               <button class="btn">Continuar</button>
             </form>
           </div>
         </div>
         <div class="icons">
-          <img class="icon icon1" src="../assets/icons/icon-user.svg">
-          <img class="icon icon2" src="../assets/icons/icon-password.svg">
+          <img id="icon1" class="icon icon1" src="../assets/icons/icon-user.svg">
+          <img id="icon2" class="icon icon2" src="../assets/icons/icon-password.svg">
         </div>
       </div>
       <div class="right">
@@ -54,6 +54,7 @@
       </div>
     </div>
     <script src="../js/login.js"></script>
+    <script src="../js/animation.js"></script>
 
   </body>
 </html>

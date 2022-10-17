@@ -98,7 +98,6 @@ p {
 }
 .container .left .content .form-div .login-form .input:focus {
   color: white;
-  padding: 0.5rem;
   font-size: 1rem;
   line-height: 100%;
   font-weight: 400;
@@ -135,7 +134,7 @@ p {
 }
 .container .left .icons {
   margin-top: 8rem;
-  margin-left: 1rem;
+  margin-left: 1.4rem;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -161,4 +160,16 @@ p {
 .container .right .banner .figure .img2 {
   width: 49.5vw;
   height: 100vh;
+}
+
+.icon-animation1 {
+  position: absolute;
+  top: 350px;
+  left: 535px;
+}
+
+.icon-animation2 {
+  position: absolute;
+  top: 450px;
+  left: 535px;
 }/*# sourceMappingURL=loginStyle.css.map */

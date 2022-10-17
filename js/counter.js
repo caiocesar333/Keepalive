@@ -7,7 +7,7 @@ const overlay = document.querySelector("#overlay");
 const continuar = document.querySelector("#continuar");
 const sair = document.querySelector("#sair");
 
-let upto = 600;
+let upto = 15;
 
 timer.innerHTML = upto.value;
 function updated() {
