@@ -37,6 +37,14 @@ p {
         line-height: 18px;
       }
     }
+    .icon-div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 70px;
+      }
+    }
   }
 }
 

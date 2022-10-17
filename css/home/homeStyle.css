@@ -34,6 +34,14 @@ p {
   font-size: 14px;
   line-height: 18px;
 }
+.header-container .weather-api-div .icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container .weather-api-div .icon-div img {
+  width: 70px;
+}
 
 .api-container {
   display: flex;
