@@ -49,7 +49,6 @@ Por favor, visite [COLABORACAO.md](github.com/caiocesar333/keepalive) para obter
 
 
 Caio César - Quarta Sprint - [Caio César ](https://github.com/caiocesar333)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
 
 Você também pode ver a lista de todos os [colaboradores](https://github.com/caiocesar333/keepalive/colaboradores) que participaram deste projeto.
 
@@ -57,6 +56,6 @@ Você também pode ver a lista de todos os [colaboradores](https://github.com/ca
 
 * Obrigado aos instrutores por tirarem todas as dúvidas necessárias 📢;
 * Aos meus colegas por sempre se dispor a ajudar 🍺;
-* E à [Compass UOL](https://compass.uol/pt/home/) 🫂;
+* E à [Compass UOL](https://compass.uol/pt/home/);
 
 
