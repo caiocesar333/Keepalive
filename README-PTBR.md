@@ -41,6 +41,33 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [HTML] - linguagem básica da web
 * [SASS](https://sass-lang.com) - Usada para facilitar a estilização
 
+## 🖇️ Funcionalidades
+
+```
+Lógica de Login com o usuário e senha, podendo ser apenas: "admin" e "admin".
+ 
+
+Lógica de horário e data completa na tela Home.
+ 
+
+Lógica de Clima/Tempo tendo como referência a geolocalização do usuário logado. API recomendada: (https://www.weatherapi.com) na tela home.
+ 
+
+Lógica do Temporizador de tempo logado em segundos (600s) que, quando zerado, deverá redirecionar para a página de Login. (podendo ser 180s na apresentação, mas no código deverá ser 600s).
+ 
+
+Lógica para manter o Título da página como "Compass - Login" e "Compass - Home".
+ 
+
+Lógica de Logout ao clicar em "Logout" na tela Home.
+ 
+
+Local Storage: Armazenar os dados preenchidos de login e password em memória, caso o usuário realize o logout, deverá aparecer um Pop-up que perguntará ao usuário se deseja continuar logado, caso deseje, o login será automático sem a necessidade de preencher os campos novamente, caso contrário o local storage deverá ser resetado.
+ 
+
+Ao clicar em "continuar navegando" deverá abrir uma nova aba no browser, sendo essa a página de notícias da UOL.
+```
+
 ## 🖇️ Colaborando
 
 Por favor, visite [COLABORACAO.md](github.com/caiocesar333/keepalive) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
