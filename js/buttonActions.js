@@ -1,11 +1,11 @@
 const continuarNavegando = document.querySelector("#continuarNavegando");
-const logout = document.querySelector("#logout");
+// const logout = document.querySelector("#logout");
 
 continuarNavegando.addEventListener("click", () => {
-  document.location = "https://compass.uol/pt/home/";
+  document.location = "https://noticias.uol.com.br";
 });
 
-logout.addEventListener("click", () => {
-  document.location.href = "../html/login.html";
-  localStorage.clear();
-});
+// logout.addEventListener("click", () => {
+//   document.location.href = "../html/login.html";
+//   localStorage.clear();
+// });
