@@ -30,7 +30,9 @@ Não são necessários pré-requisitos para rodar a aplicação
 
 ## ⚙️ Executando os testes
 
-Os testes podem ser realizados no próprio VSCode e no browser console
+Os testes podem ser realizados no próprio VSCode e no browser console.
+
+Utilize "admin" e "admin" como usuário e senha para acessar a página "Home".
 
 
 ## 🛠️ Construído com
