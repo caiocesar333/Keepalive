@@ -39,6 +39,7 @@ function displayWeather(data) {
   document.querySelector(
     "#icon"
   ).src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+  console.log(data)
 }
 
 // GEOLOCALIZAÇÃO //
@@ -57,11 +58,13 @@ function convertCoord(geo) {
   let cityName = geo[0].name;
 
   displayCityName(cityName);
+  console.log(geo)
 }
 
 function displayCityName(city) {
   const name = document.querySelector("#city");
   name.innerHTML = city + " - ";
+  console.log(city)
 }
 
 // ESTADO //
@@ -84,6 +87,8 @@ function convertState(state) {
 
 function displayStateName(stateName) {
   const state = document.querySelector("#state");
+
+  console.log(stateName)
 
   state.innerHTML = " " + stateName.substr(3, 4);
 }

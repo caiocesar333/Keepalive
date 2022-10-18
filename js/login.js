@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     if (localStorage.getItem("admin") === "admin") {
       document.location = "../html/home.html";
     }
-  }, 2000);
+  }, 1500);
 });
 
 form.addEventListener("submit", (e) => {
@@ -18,7 +18,6 @@ form.addEventListener("submit", (e) => {
     localStorage.setItem(usuario, senha);
   } else {
     e.preventDefault();
-    console.log("deu ruim");
     var span = document.querySelector("#span");
     span.innerText = "Ops, usuário ou senha inválidos. Tente novamente!";
     span.classList.add("span");
